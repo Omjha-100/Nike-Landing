@@ -1,0 +1,190 @@
+.nav-back{
+  background-color: grey;
+  position: fixed;
+  width: 100%;
+  opacity: 0.95;
+}
+.nav-bar{
+  /* position: fixed; */
+  display: flex;
+  width: 80%;
+  margin:0 auto;
+  /* background-color: red; */
+  justify-content: space-between;
+  align-items: center;
+  /* opacity: 0.9; */
+}
+body{
+  margin:0;
+  padding:0;
+  overflow: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.nike-img{
+  cursor: pointer;
+  display:flex;
+  /* align-items: center; */
+  width: 90%;
+  margin:auto 0;
+  height: auto;
+
+}
+.nav-ul{
+  display:flex;
+  justify-content: center;
+  list-style: none;
+  gap:10px;
+  /* color:red; */
+}
+.nav-ul-element{
+  text-decoration: none;
+  color:black;
+}
+.btn-red{
+  all:unset;
+  text-align: center;
+  background-color:#ab0320;
+  width:125px;
+  cursor: pointer;
+  height:40px;
+  margin:auto 0;
+  color:white;
+}
+hero{
+  display: flex;
+  width:80%;
+  /* border: 1px solid red; */
+  margin:0 auto;
+  padding-top:45px;
+  padding-bottom: 45px;
+  align-items: center;
+  justify-content: space-between;
+  /* height:calc(100%-40px); */
+  height:auto;
+}
+.hero-left{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+  padding:0 15px;
+}
+.nav-bar a:hover {
+  /* background-color: grey; */
+  color: white;
+}
+.btn-category{
+  all:unset;
+  text-align: center;
+  background-color:darkred;
+  width:125px;
+  cursor: pointer;
+  height:40px;
+  margin:auto 10px;
+  color:white;
+}
+.p-hero{
+  display: block;
+  text-align: center;
+  align-items: center;
+  color:grey;
+  font-style: italic;
+  /* font-weight:900; */
+}
+
+.hero-heading{
+  font-weight: bolder;
+}
+
+footer{
+  background-color:#0d1117;
+  display: flex;
+  padding: 45px 10px;
+  align-items: center;
+  margin-top: 58px;
+}
+.footer-ul{
+  list-style: none;
+  color:rgb(148, 148, 148);
+  display:flex;
+  flex-direction: column;
+  gap:12px;
+  cursor: pointer;
+}
+.link{
+  color:rgb(148, 148, 148);
+  text-decoration: none;
+}
+.footer-ul li:hover,.footer-ul a:hover{
+  color:white;
+}
+.footer-right{
+  margin-left:100px;
+}
+
+.mid{
+
+  margin-top:100px;
+  margin-bottom: 70px;
+  /* background-color: rgb(163, 163, 163); */
+  height: 100px;
+  width: 100%;
+  /* opacity: 0.96; */
+  color:black;
+  display: flex;
+  /* align-items: center; */
+  /* border: 1px solid red; */
+}
+.mid-h1{
+  background-color: rgb(247, 244, 244);
+  height:100%;
+  width:80%;
+  margin:0 auto;
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  /* border: 1px solid red; */
+}
+.mid-h1 a:hover{
+  color:darkred;
+}
+.sale_is_live{
+  /* border: 1px solid red; */
+  width:250px;
+  height: 50px;
+  font-style: italic;
+  font-size:xx-large;
+  margin:auto auto;
+  padding-top:10px;
+  /* opacity: 0.9; */
+  text-decoration: none;
+  color:black;
+  font-weight: bolder;
+}
+.hero-right{
+  display: flex;
+  align-items: center;
+}
+.shoe-img{
+  /* height:500px; */
+  width: 550px;
+  padding-left: 80px;
+}
+.Lower-mid{
+  /* background-color:rgb(163, 163, 163); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:90px 0;
+}
+.Lower-mid-h1{
+  background-color:rgb(224, 223, 223);
+  width:50%;
+  padding:20px 50px;
+  border-radius: 40px;
+  font-style: italic;
+  color:rgb(96, 96, 96);
+}
